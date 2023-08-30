@@ -119,12 +119,21 @@ p{
     position: absolute;
     display: block;
 }
-
+@media (max-width:500px) {
+    .image---container::after{
+        width: 100%;
+        /* height: auto; */
+        flex: 2 1 20%;
+        border-radius: 8px 8px 0 0;
+        position: relative;
+    }
+}
 @media (max-width:500px) {
     .image---container{
         width: 100%;
         /* height: auto; */
         flex: 2 1 20%;
         border-radius: 8px 8px 0 0;
+        position: relative;
     }
 }
